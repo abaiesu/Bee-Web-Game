@@ -1,0 +1,227 @@
+
+html {
+  height: 100%;
+}
+
+
+body{
+  background-image: linear-gradient(rgb(129, 240, 240), rgb(254, 251, 68), 80%, rgb(85, 254, 85));
+  overflow: hidden;
+}
+
+.levelbar{
+  position: absolute;
+  top : 5%;
+  right : 5%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 100%;
+  color: black;
+  cursor: default;
+  text-align: left;
+  display: none;
+}
+
+.line{
+  display: block;
+  margin:10px;
+}
+
+.start{
+  position: absolute;
+  top:40%;
+  right:38%;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 400%;
+  color: black;
+  cursor: default;
+}
+
+.container{
+  position: absolute;
+  top:40%;
+  right:30%;
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  cursor: default;
+  text-align: center;
+  display: none;
+  z-index: 20;
+}
+
+.end{
+  font-size: 400%;
+}
+
+.restart{
+  font-size: 200%;
+  margin-top: 20px;
+}
+
+div.start :hover {
+  color: red;
+}
+
+div.restart :hover {
+  color: red;
+}
+
+p{
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+
+#rules{
+  top : 5%;
+  right : 5%;
+  z-index: 30;
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+}
+
+div#rules :hover {
+  color: red;
+  font-size: 110%;
+}
+
+#exp{
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  top : 20%;
+  left : 20%;
+  font-size: 120%;
+  width: 100%;
+}
+
+#gotit{
+  position: absolute;
+  left : 23%;
+  padding-top: 20px;
+  font-size: 110%;
+}
+
+div#gotit :hover {
+  color: red;
+  font-size: 115%;
+}
+
+li{
+  padding: 15px;
+}
+
+#all-exp{
+  display : none;
+}
+
+
+.proj {
+    background-color:rgb(170, 119, 1); 
+    width: 10px; 
+    height: 10px; 
+    position: fixed; 
+    border-radius: 50%;
+    z-index: 11;
+    border: 1px solid black;
+  }
+
+.obstacle{
+  background-color: brown;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+}
+
+.insect{
+  width: 70px;
+  position: fixed;
+}
+
+.player{
+  width: 120px;
+  z-index: 10;
+  position: absolute;
+}
+
+.flower{
+  height: 20%;
+  bottom: 0px;
+  position: fixed;
+}
+
+#f1{
+  right : 50%;
+  transform: scaleX(-1);
+}
+
+
+#f2{
+  right : 42%;
+  height: 30%;
+}
+
+
+#f3{
+  right : 30%;
+  transform: scaleX(-1);
+}
+
+#f15{
+  right:25%;
+  height: 15%;
+}
+
+#f4{
+  right : 60%;
+}
+
+#f5{
+  right : 81%;
+  transform: scaleX(-1);
+  height: 30%;
+}
+
+#f6{
+  right : 70%;
+}
+
+#f7{
+  left : 17%;
+}
+
+#f8{
+  left: 40%;
+  height: 13%;
+  
+}
+
+#f9{
+  right: 5%;
+  height: 15%;
+  transform: scaleX(-1);
+}
+
+#f10{
+  right : 20%;
+}
+
+
+#f11{
+  left : 2%;
+  height: 22%;
+}
+
+#f12{
+  left: 55%;
+  transform: scaleX(-1);
+}
+
+#f13{
+  left: 80%;
+  height: 30%;
+}
+
+#f14{
+  left: 31%;
+  height: 15%;
+  transform: scaleX(-1);
+}

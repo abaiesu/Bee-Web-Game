@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/bee1.png">
+    <title>Bee</title>
+</head>
+
+<body> 
+    <audio id="projectile_sound" src="projectile sound.mp3"></audio> 
+    <audio id="collision_sound" src="collision sound.mp3"></audio> 
+    <audio id="death_sound" src="death sound.mp3"></audio> 
+
+    <div class="start"><p>START</p></div>
+
+    <div class = "container">
+        <div class="end"><p>YOU DIED</p></div>
+        <div class="restart"><p>TRY AGAIN</p></div>
+    </div>
+
+        <div class="levelbar">
+            <div class="line"><p>Level : </p><p id="level">0</p></div>
+            <div class="line"><p>Killed : </p><p id ="killed">0</p></div>
+        </div>
+
+    <img class="player" src = "bee1.png">
+    <img class="flower" id="f1" src = "images/flower1.png">
+    <img class="flower" id="f2" src = "images/flower2.png">
+    <img class="flower" id="f3" src = "images/flower3.png">
+    <img class="flower" id="f4" src = "images/flower4.png">
+    <img class="flower" id="f5" src = "images/flower5.png">
+    <img class="flower" id="f6" src = "images/flower4.png">
+    <img class="flower" id="f7" src = "images/flower2.png">
+    <img class="flower" id="f8" src = "images/flower3.png">
+    <img class="flower" id="f9" src = "images/flower5.png">
+    <img class="flower" id="f10" src = "images/flower1.png">
+    <img class="flower" id="f11" src = "images/flower3.png">
+    <img class="flower" id="f12" src = "images/flower1.png">
+    <img class="flower" id="f13" src = "images/flower4.png">
+    <img class="flower" id="f14" src = "images/flower1.png">
+    <img class="flower" id="f15" src = "images/flower5.png">
+
+    <div id="rules"><p>How to play</p></div>
+    
+    <div id="all-exp">
+        <div id="exp">
+            <ul>
+                <li>Move the mouse to move the bee</li>
+                <li>Click to send projectiles</li>
+                <li>Try to kill as many spiders as possible</li>
+                <li>Don't let the spiders touch you !</li>
+            </ul>
+    
+            <div id="gotit">
+                <p>Got it !</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    
+
+
+
+
+
+
+</body>
+
+</html>
